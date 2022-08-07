@@ -15,7 +15,7 @@ double breitwigner_pdf(double *x, double *par) {
 
 // main program
 
-void breitwigner_dist() {
+void breitwigner_distribution() {
 
 	// call function and set options
 	TF1* efunc = new TF1("efunc",breitwigner_pdf,0.,20.,2);
