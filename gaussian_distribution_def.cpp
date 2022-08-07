@@ -15,7 +15,7 @@ double normal_pdf(double *x, double *par) {
 
 // main program
 
-void normal_dist() {
+void normal_distribution_def() {
 
 	// call function and set options
 	TF1* efunc = new TF1("efunc",normal_pdf,0.,20.,2);
